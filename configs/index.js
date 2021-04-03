@@ -3,6 +3,6 @@ const dev = process.env.NODE_ENV !== "production";
 
 const serverHost = dev
   ? "http://localhost:3000"
-  : "https://next-tedy-app.vercel.app";
+  : "https://next-static-rendering.vercel.app/";
 
 export { serverHost, dbConnect };
